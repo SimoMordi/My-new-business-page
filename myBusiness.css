@@ -46,10 +46,12 @@ body {
 }
 
 .galery img {
+
+    max-width: 280px;
+}
+.galery {
     display: flex;
     justify-content: space-around;
-    max-width: 280px;
-
 }
 
 .galery :nth-child(2) {
